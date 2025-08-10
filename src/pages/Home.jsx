@@ -9,12 +9,8 @@ const Home = () => {
       className="h-screen bg-cover bg-center relative"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
-      {/* You can work on this image via Tailwind classes */}
-      {/* <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-        <h1 className="text-white text-4xl font-bold">Welcome</h1>
-      </div> */}
       <Content className="py-8 absolute inset-0 flex items-center">
-        <div className="bg-[#49B9FF80]">
+        <div className="badge border-none bg-[#49B9FF80] text-white">
           <p>The Ultimate Hotel Experience</p>
         </div>
       </Content>
