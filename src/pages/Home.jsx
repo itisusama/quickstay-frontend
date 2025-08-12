@@ -3,6 +3,7 @@ import heroImage from '../assets/heroImage.png'
 import Content from '../components/Content'
 import { assets, roomsDummyData } from '../assets/assets'
 import HotelCard from '../components/HotelCard'
+import ExclusiveOffers from '../components/Home/ExclusiveOffers'
 
 const Home = () => {
   const hotels = [
@@ -110,7 +111,7 @@ const Home = () => {
 
     <Content className='py-16 bg-[#f4f8fb]'>
       <div className='flex flex-col items-center justify-center'>
-        <h2 className='text-lg'>Featured Hotels</h2>
+        <h2 className='text-3xl'>Featured Hotels</h2>
         <p className='text-center text-gray-500 mt-2'>
           Discover our handpicked selection of exceptional properties around the world, offering <br /> unparalleled luxury and unforgettable experiences
         </p>
@@ -122,6 +123,10 @@ const Home = () => {
     </div>
     <div className='flex justify-center mt-6'><button className='btn'>View All Hotels</button></div>
     </Content>
+
+    {/* Exclusive Offers */}
+    <ExclusiveOffers/>
+    {/* Exclusive Offers */}
     </>
   )
 }
